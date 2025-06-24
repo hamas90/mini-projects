@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+h1{
+    margin-left: 50%;
+    margin-top: 20%;
+    background-color: brown;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+}

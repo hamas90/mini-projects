@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:#121212df;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    
+}
+.navbar p{
+    font-size: 30px;
+    font-family:Broadway;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+    color:  rgb(251, 254, 253);
+}
+.navbar ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 45%;
+    width: 40%;
+    margin-top: 20px;
+}
+.navbar ul a{
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(251, 254, 253);
+}
+.navbar .google{
+    background-color: red;
+    border: 10px solid red;
+    border-radius: 19px;
+}
+.navbar .google:hover{
+    color: blue;
+}
+
+.header{
+    background-image: url(../Img/go.jpeg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size:100% 100%;
+    position: relative;
+}
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13, 14, 13);
+    opacity: 0.6;/*تاخد قيمه من 0 الى 1 هاذه للشفافيه*/
+}
+.header p{
+    position: absolute;
+    top: 220px;
+    left: 33%;
+    color: white;
+    font-family: Bernard MT Condensed;
+    font-size: 50px;
+    /* border-bottom: solid rgba(207, 200, 13, 0.679); */
+}
+footer{
+    background-color: rgb(47, 44, 44);
+}
+.footer-con{
+    width: 100%;
+    padding: 50px 30px 40px ;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+.icons i{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(241, 243, 246, 0.87);
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.icons i:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+    color: white;
+
+}

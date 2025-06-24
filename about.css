@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:#121212df;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+}
+.navbar p{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+    color: rgb(251, 254, 253);
+}
+.navbar ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 45%;
+    width: 40%;
+    margin-top: 20px;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(251, 254, 253);
+   
+}
+.navbar .google{
+    background-color: red;
+    border: 10px solid red;
+    border-radius: 19px;
+}
+.navbar .google:hover{
+    color: blue;
+}
+.about{
+    padding: 80px 0;
+
+}
+.about p{
+    width: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 60px;
+}
+.about p span{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 37px;
+    color: #21455c;
+    /* border-bottom: solid red; */
+    text-transform: uppercase;
+    width: 33%;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px black;
+
+}
+.about p span:hover{
+    color: rgb(51, 6, 128);
+    box-shadow: 4px 4px 10px red;
+}
+.about img{
+    width: 500px;
+    height: 400px;
+    margin-left: 8%;
+    box-shadow: 10px 0 20px black;
+    margin-top: 40px;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+.footer-con{
+    width: 100%;
+    padding: 50px 30px 40px ;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+.icons i{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(241, 243, 246, 0.87);
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.icons i:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+    color: white;
+
+}
