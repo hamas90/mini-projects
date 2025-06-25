@@ -17,8 +17,7 @@ Job Finder Website
 
 1. قم بتحميل المشروع أو انسخه إلى جهازك:
 
-   ```bash
-   git clone https://github.com/hamasmohsen0/mini-projects.git
+https://github.com/hamasmohsen0/mini-projects.git
 
 2. افتح المجلد في محرر كود مثل Visual Studio Code.
 4. استعرض الموقع بكل صفحاته.
